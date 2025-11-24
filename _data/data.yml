@@ -1,0 +1,193 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+  position: right # position of the sidebar : left or right
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # Set to False, we will show detailed education in the main section
+
+  # Profile information
+  name: 李梓境 (Zijing Li)
+  tagline: 具身智能算法工程师 | 控制算法工程师
+  avatar: li.jpg # place a 100x100 picture inside /assets/images/ folder
+
+  # Sidebar links
+  email: l2684008188@gmail.com
+  phone: (+86) 151-7039-9504
+  timezone: Asia/Shanghai
+  website: https://anamazingperson.github.io/
+  github: anamazingperson
+  linkedin: # 如果有 LinkedIn 可以填在这里，格式: username
+  # twitter: '@jekyllrb' # 如果不需要可以注释掉
+  
+  pdf: assets/Zijing_Li_Resume.pdf # 请确保您的 PDF 文件在 assets 文件夹下
+
+  languages:
+    title: Languages
+    info:
+    - idiom: Chinese
+      level: Native
+
+    - idiom: English
+      level: CET-6 (Professional)
+
+  interests:
+    title: Interests
+    info:
+    - item: Embodied AI
+      link:
+
+    - item: Robotics
+      link:
+
+    - item: Control Theory
+      link:
+
+career-profile:
+  title: Career Profile
+  summary: |
+    **哈尔滨工业大学**控制科学与工程专业硕士在读，本科毕业于**中南大学**（校级优秀毕业生）。
+    凭借**全国大学生数学竞赛国家级一等奖**与**研究生数学建模竞赛二等奖**的优异成绩，建立了深厚的数理逻辑与控制理论基础。
+    
+    学术视野开阔，在 **IEEE TAES**（顶刊）等期刊发表多篇论文。构建了从感知决策到运动控制的完整技术闭环：
+    熟练掌握 **Habitat** 与 **ROS2** 仿真生态，深入研究 **视觉语言导航 (VLN)** 技术，成功复现 **VLFM** 算法并在复杂环境中实现 **Zero-Shot** 导航与 **Sim2Real** 真机部署；
+    同时具备扎实的**机械臂动力学**建模经验，能利用 **MoveIt** 与 **MPC** 解决实际工程中的抖动与轨迹跟踪问题。
+    
+    渴望在**具身智能算法**领域通过**大模型**赋能机器人实体。
+
+education:
+  title: Education
+  info:
+  - degree: 硕士 - 控制科学与工程 (Master of Control Science and Engineering)
+    university: 哈尔滨工业大学 (HIT)
+    time: 2024.09 - 2027.06 (Expected)
+    details: |
+      - 研究方向：具身智能、机器人控制、多智能体协同
+      - 核心课程：现代控制理论、强化学习、非线性系统
+      - 荣誉：研究生学业一等奖学金 (Top 15%)
+
+  - degree: 学士 - 自动化 (Bachelor of Automation)
+    university: 中南大学 (CSU)
+    time: 2020.09 - 2024.06
+    details: |
+      - **优秀毕业生**
+      - 荣誉：国家励志奖学金 (Top 3%, 连续两次)
+      - 竞赛：第十四届全国大学生数学竞赛(国家级) 一等奖
+
+experiences:
+  title: Experiences
+  info:
+  - role: 机器人导航算法实习生
+    time: 2025.05 - 2025.07
+    company: 上海知而行科技有限公司
+    details: |
+      - **视觉语言导航 (VLN) 算法复现与优化**：复现基于大模型的 **VLFM** 算法，实现了复杂环境下的**零样本 (Zero-Shot)** 导航。
+      - **Habitat 仿真与大规模测试**：搭建 Habitat 高保真仿真环境，在 HM3D/HP3D 数据集上复现 SOTA 性能 (成功率 32%)。
+      - **Sim2Real 真机部署**：解决域差距问题，将算法部署于移动小车，实现自然语言指令导航。
+      
+  - role: 运动控制算法实习生
+    time: 2024.12 - 2025.02
+    company: 北京东土科技有限公司 (上市公司)
+    details: |
+      - **机械臂控制策略研发**：调研并验证 **模糊 PID** 与 **MPC** 策略，显著降低机械臂末端抖动。
+      - **ROS2 仿真系统搭建**：使用 **ROS2 + MoveIt** 搭建吊装仿真环境，解决复杂轨迹下的目标波动问题。
+
+projects:
+  title: Projects
+  intro: >
+    Selected academic and industrial projects involving Control Theory, Embodied AI, and Deep Learning.
+  assignments:
+  - title: 航天器轨道威胁智能感知与自主规避
+    link: "#"
+    tagline: "国家自然科学基金重大集成项目 | 核心研究员 | 鲁棒控制"
+
+  - title: 流程工业智能优化决策与控制系统
+    link: "#"
+    tagline: "华为合作项目 | 预测大模型 | 智能模糊控制 | 泛化性迁移"
+
+  - title: 柔性机械臂智能边界控制算法研究
+    link: "#"
+    tagline: "课题组科研 | DeepONet | PINN | 偏微分方程(PDE)"
+
+publications:
+  title: Publications & Patents
+  intro: |
+    Selected research papers and patents.
+  papers:
+  - title: "Game-Based Collaborative Interception of A Maneuverable Threat..."
+    link: "#"
+    authors: "**Z. Li** (3rd Author), et al."
+    conference: "IEEE TAES, 2024 [Accepted, Top Journal]"
+
+  - title: "Improved Space Object Detection Based on YOLO11"
+    link: "https://www.mdpi.com/2226-4310/12/7/568"
+    authors: "**Z. Li** (3rd Author), et al."
+    conference: "Aerospace, 2025 [SCI JCR Q2]"
+
+  - title: "A Sparse Broad Learning System for Robust Modeling and Control"
+    link: "#"
+    authors: "**Z. Li** (1st Author)"
+    conference: "Submitted to arXiv, 2025 [Under Review]"
+    
+  - title: "DDPGRU: Enhancing DDPG with a GRU-Based Actor Network..."
+    link: "https://ieeexplore.ieee.org/abstract/document/11138126"
+    authors: "**Z. Li** (4th Author), et al."
+    conference: "FASTA 2025 [EI Conference]"
+
+# 将原来的 certifications 改为 Awards 使用
+certifications:
+  title: Honors & Awards
+  list:
+  - name: “华为杯”中国研究生数学建模竞赛
+    start: 2025
+    end: 
+    organization: 二等奖
+    details: |
+      National 2nd Prize.
+
+  - name: 第十四届全国大学生数学竞赛 (国家级)
+    start: 2023
+    end: 
+    organization: 一等奖
+    details: |
+      National 1st Prize.
+
+  - name: 国家励志奖学金
+    start: 2021
+    end: 2022
+    organization: Top 3%
+    details: |
+      Awarded twice consecutively.
+
+# 这里可以把推荐信板块注释掉，或者留空
+recommendations:
+  title: 
+  list: []
+
+# 技能部分，把您的 Core Competences 映射为百分比条
+skills:
+  title: Skills & Proficiency
+
+  toolset:
+  - name: Python / PyTorch
+    level: 95%
+
+  - name: ROS2 / Habitat (Sim2Real)
+    level: 90%
+
+  - name: Control Theory (PID/MPC)
+    level: 90%
+
+  - name: MATLAB / Simulink
+    level: 90%
+
+  - name: Linux / Shell / Git
+    level: 85%
+
+  - name: Algorithms (DeepONet, BLS, RL)
+    level: 85%
+
+footer: >
+  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>.
+  Modified by Zijing Li.
